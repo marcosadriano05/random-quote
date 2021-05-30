@@ -22,7 +22,7 @@ const backgroundColors = [
 ]
 
 function fetchQuote() {
-  fetch('http://api.quotable.io/random')
+  fetch('https://api.quotable.io/random')
   .then(res => {
     if (res.status !== 200) throw new Error('Request is not successful')
     return res.json()
