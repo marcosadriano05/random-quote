@@ -72,6 +72,10 @@ function putColorsInDOM(colorsArray) {
 }
 
 function init() {
+  if (!text.innerHTML) {
+    text.innerHTML = 'Click in new quote button to get a quote.'
+  }
+
   buttonNewQuote.addEventListener('click', () => {
     fetchQuote()
     putColorsInDOM(backgroundColors)
