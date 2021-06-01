@@ -58,7 +58,7 @@ main {
 #author {
   width: 100%;
   text-align: right;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -72,7 +72,6 @@ main {
 }
 
 #tweet-quote {
-  display: inline-block;
   height: 2rem;
   width: 2.5rem;
   text-decoration: none;
@@ -94,6 +93,12 @@ main {
   background: #333;
   color: white;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: inherit;
 }
 
 /* Extra large widgets */
